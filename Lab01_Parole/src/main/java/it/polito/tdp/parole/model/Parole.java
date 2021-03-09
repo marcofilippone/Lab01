@@ -24,5 +24,9 @@ public class Parole {
 	public void reset() {
 		lista.removeAll(lista);
 	}
+	
+	public void remove(String p) {
+		lista.remove(p);
+	}
 
 }
